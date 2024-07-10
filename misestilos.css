@@ -1,7 +1,73 @@
-p { font-size: 15px }
-h2 { font-size: 30px}
-h3 { font-size: 20px}
-#presentación { font-size: 25px}
-.puesto { font-size: 40px}
-.fechas { font-size: 30px}
-.tareas { font-size: 25px}
+body {
+    background: linear-gradient(90deg, #844bb6, #429ebd);
+    }
+    #información_de_contacto {
+        display: block;
+        float: center;
+        border: 5px solid #570e69;
+        background: #F3D0F5;
+        border-radius: 20px;
+        text-align: center;
+    }
+.infocontact {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); 
+        gap: 8%; 
+        text-align: center; 
+}
+.infocontact-item:hover{ 
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    }
+    .infocontact-item {
+        list-style: none; 
+        padding: 10px; 
+        width: 200px;
+        border: 5px solid #570e69;
+        background: #F3D0F5;
+        border-radius: 20px;
+    }
+
+    .presentación {
+        display: block;
+        float: right;
+        width: 20%;
+        gap: 10px;
+        margin: 50px auto;
+        padding: 15px;
+        text-align: center;
+        border: 5px solid #570e69;
+        background: #F3D0F5;
+        border-radius: 20px;
+               
+    }
+    .presentacion {
+        display: block;
+        float: right;
+        width: 20%;
+        gap: 10px;
+        margin: 50px auto;
+        padding: 15px;
+        text-align: center;
+        border: 5px solid #570e69;
+        background: #F3D0F5;
+        border-radius: 20px;
+               
+    }
+.experiencia_laboral {
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 5px solid #570e69;
+    background: #F3D0F5;
+    border-radius: 20px; 
+}
+.boton {
+    display: block;
+    border: 5px solid #570e69;
+    background: #F3D0F5;
+    border-radius: 20px;
+}
