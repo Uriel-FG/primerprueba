@@ -4,29 +4,27 @@
     <title>CV Uriel Godoy</title>
     <link rel="stylesheet" href="misestilos.css">
 </head>
-<body>
-    <header>
-        <stong id="información de contacto"  class="infocontact">Información de contacto</stong>
+<body id="agrupar">
+    <header class="cabecera">
+        <strong id="información_de_contacto" class="infocontact">Información de contacto</strong>
             <nav>
             <ul class="infocontact">
-                <li> <b>Teléfono:</b> +54 9 351 613-7994 <br> </li>
-                <li> <b>Email:</b> fabio.godoy2003@gmail.com <br> </li>
-                <li> <b>Dirección:</b> Córdoba-Argentina <br> </li>
-                <li> <b>Linkedin:</b> http://www.linkedin.com/in/fabiourielgodoy <br> </li>
+                <li class="infocontact-item"><b>Teléfono:</b> +54 9 351 613-7994</li>
+                <li class="infocontact-item"><b>Email:</b> fabio.godoy2003@gmail.com</li>
+                <li class="infocontact-item"><b>Dirección:</b> Córdoba-Argentina</li>
+                <li class="infocontact-item"><b>LinkedIn:</b> <a href="http://www.linkedin.com/in/fabiourielgodoy">Perfil de LinkedIn</a></li>
             </ul>
             </nav>
     </header>
-    <!--wenas wenas chavales como les vaaaaaaaaaaaaa aca llego LA EZQUIZOFRENIA WAOSS-->
     <aside>
         <strong id="sobre_mi" class="presentación">Sobre mi</strong>
-            <p id="presentación"> Soy un profesional orientado a la atención como Soporte Técnico, actualmente enriqueciendo mis conocimientos como estudiante de Analista en Sistemas. Mi trayectoria incluye cursos especializados en soporte técnico y una constante mejora gracias a la experiencia adquirida como técnico, con habilidades sólidas junto a mi pasión por resolver desafíos, busco contribuir como profesional en el dinámico campo de la tecnología y a su vez lograr un mayor crecimiento personal. </p>
+            <p id="presentación" class="presentación"> Soy un profesional orientado a la atención como Soporte Técnico, actualmente enriqueciendo mis conocimientos como estudiante de Analista en Sistemas. Mi trayectoria incluye cursos especializados en soporte técnico y una constante mejora gracias a la experiencia adquirida como técnico, con habilidades sólidas junto a mi pasión por resolver desafíos, busco contribuir como profesional en el dinámico campo de la tecnología y a su vez lograr un mayor crecimiento personal. </p>
 
     </aside>
     <section>
-        <strong id="experiencia_laboral">Experiencia laboral</strong>
-        <article>
-        </article>
-        <hgroup id="iveco">
+        <strong class="experiencia_laboral">Experiencia laboral</strong>
+        <article class="articulos">
+        <hgroup id="iveco" class="experiencia_laboral">
             <h2 class="puesto">Encargado de Mesa de ayuda</h2>
             <h3 class="fechas">Stefanini-Iveco y FPT, Nov 2023 - Abr 2024</h3>
                <p class="tareas">Reparar equipos / Gestionar garantía según caso.</p>
@@ -41,7 +39,7 @@
                <p class="tareas">Cambio y reparación de hardware.</p>
                <p class="tareas">Reparar equipos o Gestionar garantía según caso.</p>
         </hgroup >
-        <hgroup id="digita_impulse">
+        <hgroup id="digita_impulse" class="experiencia_laboral">
             <h2 class="puesto">Analista de Soporte Técnico IT</h2>
             <h3 class="fechas">Digital Impulse, Feb 2023 - Nov 2023</h3>
              <p class="tareas">Brindar soporte en Sitio y Remoto.</p>
@@ -54,8 +52,8 @@
              <p class="tareas">Realizar análisis de mercado.</p>
              <p class="tareas">Extraer palabras clave.</p>
              <p class="tareas">Optimizar el CPM de las campañas a mi cargo.</p>
-        </hgroup">
-        <hgroup id="apex">
+        </hgroup>
+        <hgroup id="apex" class="experiencia_laboral" >
             <h2 class="puesto">Analista de Soporte en Redes</h2>
             <h3 class="fechas">Apex America, Ago 2022 - Feb 2023</h3>
              <p class="tareas">Soporte vía Mensajes, Correos y llamadas.</p>
@@ -68,6 +66,12 @@
         </hgroup>
         </article>
     </section>
+    <button class="boton" onclick="abrirNuevaPestana()">Hacer Clic</button>
 
+    <script>
+        function abrirNuevaPestana() {
+            window.open("Nuevoscss.html");
+        }
+    </script>
 </body>
 </html>
